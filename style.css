@@ -1,10 +1,10 @@
 @font-face {
     font-family: nunito;
-    src: url(fonts/Nunito/Nunito-Bold.ttf);
+    src: url(Nunito-Bold.ttf);
   }
   @font-face {
     font-family: nunito;
-    src: url(fonts/Nunito/Nunito-SemiBold.ttf);
+    src: url(Nunito-SemiBold.ttf);
   }
 
 *{
@@ -16,7 +16,7 @@
     font-family: nunito;
 }
 .wraper {
-    background-image: url("images/header-Back.png");
+    background-image: url("header-Back.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -389,7 +389,7 @@ span.content {
     height: 9px;
     top: 10px;
     left: 93px;
-    background-image: url(images/line.png);
+    background-image: url(line.png);
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
@@ -405,7 +405,7 @@ span.content {
     height: 8px;
     top: 16px;
     left: 728px;
-    background-image: url(./images/line-rotate.png);
+    background-image: url(./line-rotate.png);
     background-repeat: no-repeat;
     z-index: 1;
     background-position: left;
@@ -508,7 +508,7 @@ span.content {
 .ul-wrap ul li:before {
     top: -1px;
     content: "";
-    background-image: url(images/tick.png);
+    background-image: url(tick.png);
     width: 20px;
     height: 20px;
     position: absolute;
@@ -614,7 +614,7 @@ span.content {
     right: 40px;
     width: 18px;
     height: 18px;
-    background-image: url(images/accordianIcon.png);
+    background-image: url(accordianIcon.png);
     top: 20px;
 }
 /* .accord .accordion:after {
@@ -623,7 +623,7 @@ span.content {
     right: 40px;
     width: 18px;
     height: 18px;
-    background-image: url(images/minus.png);
+    background-image: url(minus.png);
     top: 20px;
 } */
 
@@ -956,7 +956,7 @@ footer {
         height: 8px;
         top: 16px;
         left: 728px;
-        background-image: url(./images/line-rotate.png);
+        background-image: url(./line-rotate.png);
         background-repeat: no-repeat;
         z-index: 1;
         background-position: left;
@@ -967,7 +967,7 @@ footer {
         height: 9px;
         top: 10px;
         left: 93px;
-        background-image: url(images/line.png);
+        background-image: url(line.png);
         background-position: center;
         background-repeat: no-repeat;
         z-index: 1;
@@ -1273,7 +1273,7 @@ footer {
         right: 18px;
         width: 18px;
         height: 18px;
-        background-image: url(images/accordianIcon.png);
+        background-image: url(accordianIcon.png);
         top: 20px;
     }
     .logo img {
@@ -1433,3 +1433,4 @@ footer {
         min-height: 807px;
     }
 }
+
