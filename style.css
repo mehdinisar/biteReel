@@ -1155,6 +1155,21 @@ footer {
 }
 }
 @media screen and (max-width: 480px){
+    .sticky {
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #6dc106;
+        width: 100%;
+        padding: 0px 88px;
+        z-index: 9;
+        padding: 0px 40px;
+    }
     .col {
         width: 100%;
         text-align: center;
