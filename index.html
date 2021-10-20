@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bite Reel</title>
+    <link rel="icon" href="images/icon.png" type="Weblogo">
+    <link rel="stylesheet" href="style.css">
+    <!--font awsome cdn link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+</head>
+<body>
+    <header class="wraper">
+        <div class="container">
+            <div class="topBar">
+                <div class="logo">
+                   <a href="index.html"><img src="images/bitereelLogo.png" alt=""><a/>
+                </div>
+                <div class="rightSection">
+                    <i class="menu-toggle-btn fas fa-bars" id="lines"></i><i class="fas fa-times" id="cross"></i>
+                    <nav class="navigation" id="myTopnav">
+                        <ul>
+                            <li><a href="#">Home<a/></li>
+                            <li><a href="#">App Overview<a/></li>
+                            <li><a href="#">How it Works<a/></li>
+                            <li><a href="#">Features<a/></li>
+                            <li><a href="#">Demo<a/></li>
+                            <li><a href="#">FAQs<a/></li>
+                        </ul>
+                    </nav>
+                    <div class="Signup">
+                        <a href="">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container containerr">
+            <div class="col">
+                <div class="text-Wrape">
+                    <h1>Best Chef’s Social Network</h1>
+                    <p>Bite Reel is a community for hungry people! The first platform of its kind. Search, create, share and organize your favorite recipes all on one platform.      Follow your favorite chefs, food bloggers, and friends! Let the Recipe Reel roll as you explore all the amazing foods and features Bite Reel has to offer.
+                    </p>
+                </div>
+
+                <div class="form-wrape">
+                    <div class="form-wrap">
+                        <form method="post" id="email-me">
+                            <input type="email" id="email1" name="email" placeholder="Email me when it’s ready! ">
+                            <button type="submit" class="email-btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col2 img-col">
+                <img src="images/header-main.png">
+            </div>
+        </div>   
+    </header>
+    <div class="row ">
+        <div class="col-100">
+            <h1>App Overview</h1>
+            <h4>Rocket App does all the work for you. <span>Instinctively</span></h4>
+            <p>Bite Reel does all the work for you. Instinctively. Find the perfect recipe to satisfy your craving.</p>
+        </div>   
+        <div class="sections container">
+            <div class="sec">
+                <img src="images/userExperience.png" alt="userLogo">
+                <h2>User Experience</h2>
+                <p>A seamless design and interface that aims to fulfill user’s needs through a positive experience.</p>
+            </div>
+             <div class="sec">
+                <img src="images/search.png" alt="search">
+                <h2>Search</h2>
+                <p>Browse for recipes created by chefs, food bloggers, average joes and more.</p>
+            </div>
+             <div class="sec">
+                <img src="images/organize.png" alt="organize">
+                <h2>Organize</h2>
+                <p>Save recipes and organize them exactly the way you want.</p>
+            </div>
+             <div class="sec">
+                <img src="images/features.png" alt="feature">
+                <h2>Features</h2>
+                <p>Utilize our in-app tools to increase your productivity.</p>
+            </div>
+             <div class="sec">
+                <img src="images/socialNetwork.png" alt="socialNetwork">
+                <h2>Social Network</h2>
+                <p>Upload and save all of your favorite recipes to share with friends and followers.</p>
+            </div>
+             <div class="sec">
+                <img src="images/review.png" alt="review">
+                <h2>Review</h2>
+                <p>Give the recipes you try a star rating and comment your yays and no ways.</p>
+            </div>
+            </div>
+        </div>     
+    </div>
+    <section class="tabsec">
+        <div class="col-100 container">
+                <h1>How Does it Work</h1>
+                <h4><span>Simple works.</span> So maybe we should stay that way.</h4>
+                <p class="para">BiteReels is a platform for searching, sharing, creating, and organizing recipes. Search for a specific type of recipe or food, then scroll through the many recipes available. Save your absolute favorite recipe right on your wall. You can also share or upload your homemade recipes or recipes from your favorite chef, food blogger or average joe. With Bite Reel your go-to recipes are all in one place instead of scattered all over your counter or the internet!</p>
+        </div>
+            <div id="tabs" class="container tabs">
+                <ul id="tabs-nav">
+                    <li class="active"><a href="#tab1">Sign Up </a></li>
+                    <li><a href="#tab2">Profile</a></li>
+                    <li><a href="#tab3">Home</a></li>
+                    <li><a href="#tab4">Upload</a></li>
+                    <li><a href="#tab5">Share</a></li>
+                    <li><a href="#tab6">Add</a></li>
+                </ul>
+            </div>
+        <section class="tabs-content" id="tabs-content">
+            <div id="tab1" class="tab-content">
+                <div class="tabContent container">  
+                    <div class="textWrape">     
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-1 mobi-left">
+                                <span class="heading">Search</span>
+                                <span class="content">Use the search feature to browse recipes and find your friends.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-2 mobi-left">
+                                <span class="heading">Engage</span>
+                                <span class="content">Like, comment, and share posts or recipes you enjoy.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-3 mobi-left">
+                                <span class="heading">Upload</span>
+                                <span class="content">Click on the arrow to upload a post or a recipe.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-4 mobi-right">
+                                <span class="heading">Menu</span>
+                                <span class="content">Navigate through the app by using the menu.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-5 mobi-right">
+                                <span class="heading">Recipe</span>
+                                <span class="content">Click on the recipe to view the details.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-6 mobi-right">
+                                <span class="heading">Save</span>
+                                <span class="content">Save recipes to your account.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgWrape">
+                        <img src="images/biteReel.png">
+                    </div>
+                </div>
+            </div>
+            <div  id="tab2" class="tab-content">
+                <div class="tabContent container">  
+                    <div class="textWrape">     
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-1 mobi-left">
+                                <span class="heading">Search</span>
+                                <span class="content">Use the search feature to browse recipes and find your friends.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-2 mobi-left">
+                                <span class="heading">Engage</span>
+                                <span class="content">Like, comment, and share posts or recipes you enjoy.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-3 mobi-left">
+                                <span class="heading">Upload</span>
+                                <span class="content">Click on the arrow to upload a post or a recipe.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-4 mobi-right">
+                                <span class="heading">Menu</span>
+                                <span class="content">Navigate through the app by using the menu.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-5 mobi-right">
+                                <span class="heading">Recipe</span>
+                                <span class="content">Click on the recipe to view the details.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-6 mobi-right">
+                                <span class="heading">Save</span>
+                                <span class="content">Save recipes to your account.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgWrape">
+                        <img src="images/biteReel.png">
+                    </div>
+                </div>
+            </div>
+            <div  id="tab3" class="tab-content">
+                <div class="tabContent container">  
+                    <div class="textWrape">     
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-1 mobi-left">
+                                <span class="heading">Search</span>
+                                <span class="content">Use the search feature to browse recipes and find your friends.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-2 mobi-left">
+                                <span class="heading">Engage</span>
+                                <span class="content">Like, comment, and share posts or recipes you enjoy.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-3 mobi-left">
+                                <span class="heading">Upload</span>
+                                <span class="content">Click on the arrow to upload a post or a recipe.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-4 mobi-right">
+                                <span class="heading">Menu</span>
+                                <span class="content">Navigate through the app by using the menu.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-5 mobi-right">
+                                <span class="heading">Recipe</span>
+                                <span class="content">Click on the recipe to view the details.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-6 mobi-right">
+                                <span class="heading">Save</span>
+                                <span class="content">Save recipes to your account.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgWrape">
+                        <img src="images/biteReel.png">
+                    </div>
+                </div>
+            </div>
+            <div  id="tab4" class="tab-content">
+                <div class="tabContent container">  
+                    <div class="textWrape">     
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-1 mobi-left">
+                                <span class="heading">Search</span>
+                                <span class="content">Use the search feature to browse recipes and find your friends.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-2 mobi-left">
+                                <span class="heading">Engage</span>
+                                <span class="content">Like, comment, and share posts or recipes you enjoy.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-3 mobi-left">
+                                <span class="heading">Upload</span>
+                                <span class="content">Click on the arrow to upload a post or a recipe.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-4 mobi-right">
+                                <span class="heading">Menu</span>
+                                <span class="content">Navigate through the app by using the menu.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-5 mobi-right">
+                                <span class="heading">Recipe</span>
+                                <span class="content">Click on the recipe to view the details.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-6 mobi-right">
+                                <span class="heading">Save</span>
+                                <span class="content">Save recipes to your account.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgWrape">
+                        <img src="images/biteReel.png">
+                    </div>
+                </div>
+            </div>
+            <div  id="tab5" class="tab-content">
+                <div class="tabContent container">  
+                    <div class="textWrape">     
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-1 mobi-left">
+                                <span class="heading">Search</span>
+                                <span class="content">Use the search feature to browse recipes and find your friends.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-2 mobi-left">
+                                <sp0an class="heading">Engage</sp0an>
+                                <span class="content">Like, comment, and share posts or recipes you enjoy.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-3 mobi-left">
+                                <span class="heading">Upload</span>
+                                <span class="content">Click on the arrow to upload a post or a recipe.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-4 mobi-right">
+                                <span class="heading">Menu</span>
+                                <span class="content">Navigate through the app by using the menu.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-5 mobi-right">
+                                <span class="heading">Recipe</span>
+                                <span class="content">Click on the recipe to view the details.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-6 mobi-right">
+                                <span class="heading">Save</span>
+                                <span class="content">Save recipes to your account.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgWrape">
+                        <img src="images/biteReel.png">
+                    </div>
+                </div>
+            </div>
+            <div  id="tab6" class="tab-content">
+                <div class="tabContent container">  
+                    <div class="textWrape">     
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-1 mobi-left">
+                                <span class="heading">Search</span>
+                                <span class="content">Use the search feature to browse recipes and find your friends.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-2 mobi-left">
+                                <span class="heading">Engage</span>
+                                <span class="content">Like, comment, and share posts or recipes you enjoy.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-3 mobi-left">
+                                <span class="heading">Upload</span>
+                                <span class="content">Click on the arrow to upload a post or a recipe.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-4 mobi-right">
+                                <span class="heading">Menu</span>
+                                <span class="content">Navigate through the app by using the menu.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-5 mobi-right">
+                                <span class="heading">Recipe</span>
+                                <span class="content">Click on the recipe to view the details.</span>
+                            </span>
+                        </div>
+                        <div class="tabsNav">
+                            <span class="mobi-text mobi-text-6 mobi-right">
+                                <span class="heading">Save</span>
+                                <span class="content">Save recipes to your account.</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgWrape">
+                        <img src="images/biteReel.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+   <section class="section1">
+    <div class="container">
+            <div class="features">
+                    <div class="col1">
+                        <img src="images/appFeatures.png">
+                    </div>
+                    <div class="col2">
+                        <h1>App Features</h1>
+                        <h2>Know What it Does.<span>Just in Case</span></h2>
+                        <p>There are several unique features within the app that aims to increase efficiency and productivity.</p>
+                       <div class="ul-wrap">
+                            <ul>
+                                <li>Create a user profile with a personal picture, and privacy settings.</li>
+                                <li>Search recipes created by chefs, food bloggers, average joes, and more!</li>
+                                <li>Follow your favorite creators</li>
+                                <li>Save Recipes</li>
+                            </ul>
+                            <ul>
+                                <li>Upload, share, and save your favorite recipes</li>
+                                <li>Recipe Calculator</li>
+                                <li>Brand Recommendation</li>
+                                <li>Light and Dark Mode</li>
+                            </ul>
+                        </div>
+                        <div class="form-wrape">
+                            <div class="form-wrap">
+                                <form method="post" id="email-me">
+                                    <input type="email" id="email1" name="email" placeholder="Email me when it’s ready! ">
+                                    <button type="submit" class="email-btn">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+     </section>
+     <section class="videosec">
+        <div class="row">
+            <div class="col-100">
+                <h1>Bite Reel Video Demo</h1>
+                <h3><span>Take Closer Look.</span>That How Application Works</h3>
+                <video src="https://bitereel.com/video/dummy-video.mp4" controls="controls"></video>
+            </div>
+        </div>
+     </section>
+     <section class="faq">
+        <div class="row">
+            <div class="faqhead">
+                    <h1>FAQS</h1>
+                    <h3><span>Frequently.</span>Asked Questions</h3>
+                </div>
+            <div class="col-100">              
+                <div class="accord">
+                     <div class="accordianItem">              
+                        <button class="accordion">How do I download Bite Reel?</button>
+                        <div class="panel">
+                            <p>Bite Reel will be available across all devices. Apple, Android, and Desktop. The platform will also have a light or dark mode to let you enjoy recipes any time of day!</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">Do I need an account to use Bite Reel?</button>
+                        <div class="panel">
+                            <p>No! You do not need an account to scroll and search recipes. You’ll want to sign up to follow, save and share recipes. But, don’t worry. It is free!/p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">How much will Bite Reel cost?</button>
+                        <div class="panel">
+                            <p>Bite Reel is free to use! In coming months, there will be subscription tiers which will include some amazing exclusive features! Like a conversion calculator, the ability to translate recipes, and an online shopping cart. The tiers will cost between $5-$10.</p>
+                        </div>
+                    </div>
+                    <div class="accordianItem"> 
+                        <button class="accordion">What features does Bite Reels have?</button>
+                        <div class="panel">
+                            <ul>
+                                <li>Ability to create a user profile with pictures, and privacy settings.</li>
+                                <li>Ability to search recipes created by chefs, food bloggers, average joes, and more!</li>
+                                <li>Ability to follow your favorite creators</li>
+                                <li>Ability to bookmark recipes</li>
+                                <li>Ability to upload, share and save your favorite recipes</li>
+                                <li>Recipe Calculator</li>
+                                <li>Calorie Calculator</li>
+                                <li>Brand Recommendation</li>
+                                <li>Light and dark mode</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="load_btn_wrap text-center">
+                        <a id="loadmore">Load More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     
+     <footer>
+        <div class="container">
+            <div class="col-100">
+                <a href="#"><img src="images/footerLogo.png"></a>
+            </div>
+            <nav class="footerNav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">App Overview </a></li>
+                    <li><a href="#">How it Works</a></li>
+                    <li><a href="#">Features </a></li>
+                    <li><a href="#"> Demo </a></li>
+                    <li><a href="#">Signup</a></li>
+                    <li><a href="#"> Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>                                                                                            
+            </nav>
+            <div class="copy">
+                <p>Copyright &copy;2021 <a href="https://bitereel.com/" target="_blank"> www.bitereel.com </a>. All rights reserved.</p>
+            </div>
+        </div>
+     </footer>
+     <script src="script.js"></script>
+</body>
+</html>
