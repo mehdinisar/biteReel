@@ -514,12 +514,14 @@ span.content {
     position: absolute;
     left: 0;
 }
-.videosec .row {
+.videosec {
+    background: rgba(109, 193, 6, 0.06);
     width: 100%;
     max-width: 88%;
     margin: 0 auto;
-    background: rgba(109, 193, 6, 0.06);
+    padding: 50px 0px 150px 0px;
     border-radius: 157px;
+    margin-top: 63px;
 }
 .tabsec{
     width: 100%;
@@ -527,6 +529,8 @@ span.content {
     margin: 0 auto;
     background: rgba(109, 193, 6, 0.06);
     border-radius: 157px;
+    padding: 100px 0px;
+
 }
 .col-100 h1{
     font-family: 'Nunito';
@@ -557,9 +561,7 @@ span.content {
     width: 100%;
     max-width: 58.6%;
 }
-.videosec{
-    padding: 0px 0px 0px 0px;
-}
+
 
 .accordion {
     position: relative;
@@ -801,14 +803,6 @@ footer {
         display: block !important;
 
     }
-    
-    .videosec .row {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        background: rgba(109, 193, 6, 0.06);
-        border-radius: 157px;
-    }
     .navigation {
         position: fixed;
         width: 100%;
@@ -875,9 +869,7 @@ footer {
         position: relative;
         max-width: 727px;
     }
-    .videosec {
-        padding: 0px;
-    }
+    
     .col1 {
         width: 100%;
         text-align: center;
@@ -1452,4 +1444,3 @@ footer {
         min-height: 807px;
     }
 }
-
