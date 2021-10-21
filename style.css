@@ -523,6 +523,17 @@ span.content {
     border-radius: 157px;
     margin-top: 63px;
 }
+footer{
+    background: rgba(109, 193, 6, 0.06);
+    width: 100%;
+    max-width: 88%;
+    margin: 0 auto;
+    padding: 50px 0px 150px 0px;
+    border-radius: 157px;
+    margin-top: 63px;
+    padding: 100px 0px 92px 50px;
+    margin-bottom: 180px;
+}
 .tabsec{
     width: 100%;
     max-width: 88%;
@@ -722,10 +733,7 @@ span.content {
 .copy p a {
     text-decoration: none;
 }
-footer {
-    padding: 100px 0px 0px 50px;
-    margin-bottom: 180px;
-}
+
 .navigation.active {
     display: block;
     height: 160px;
@@ -759,7 +767,7 @@ footer {
 }
 @media screen and (max-width: 1380px) {
     .wraper {
-        padding: 0px 0px;
+    padding: 0px 0px 187px 0px;
     }
     .col1 img {
         position: absolute;
@@ -796,6 +804,17 @@ footer {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0px 47px;
+}
+.navigation ul li {
+    display: flex;
+    padding-left: 11px;
+}
+}
+
+@media screen and (max-width: 1050px){
+.navigation ul li {
+    display: flex;
+    padding-left: 9px;
 }
 }
 @media screen and (max-width: 980px){
@@ -986,6 +1005,8 @@ footer {
     }
     .col1 img {
         position: static;
+        left: 0;
+        width: 100%;
     }
     .form-wrap form {
         display: flex;
@@ -1162,10 +1183,7 @@ footer {
         z-index: 9;
         padding: 0px 40px;
     }
-    footer {
-        padding: 73px 0px 0px 0px;
-        margin-bottom: 180px;
-    }
+
     .col {
         width: 100%;
         text-align: center;
